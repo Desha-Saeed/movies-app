@@ -4,7 +4,7 @@ import Movie from './Movie';
 //import constants
 import { API_KEY, BASE_URL } from '../constants';
 import LoadingSpinner from './LoadingSpinner';
-import useAxios from '../hooks/fetchMovies';
+import useAxios from '../hooks/useAxios';
 
 function MovieList() {
   //using the axios hook

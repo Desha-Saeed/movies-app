@@ -1,5 +1,5 @@
 //import hooks
-import useAxios from '../hooks/fetchMovies';
+import useAxios from '../hooks/useAxios';
 import { useParams } from 'react-router-dom';
 //import components
 import Movie from './Movie';

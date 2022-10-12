@@ -1,5 +1,5 @@
 //import custon hooks
-import useAxios from '../hooks/fetchMovies';
+import useAxios from '../hooks/useAxios';
 //import Youtube player
 import Youtube from 'react-youtube';
 

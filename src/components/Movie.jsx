@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 //import constants
 import { imgURL } from '../constants';
 
-function Movie({ data: { id, title, poster_path, vote_average }, similar }) {
+function Movie({ data: { id, title, poster_path, vote_average } }) {
   return (
     <div className=' cursor-pointer '>
       {/* movie card */}

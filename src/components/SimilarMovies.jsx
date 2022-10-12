@@ -1,6 +1,6 @@
 //import hooks
 
-import useAxios from '../hooks/fetchMovies';
+import useAxios from '../hooks/useAxios';
 
 //import componenets
 import LoadingSpinner from './LoadingSpinner';

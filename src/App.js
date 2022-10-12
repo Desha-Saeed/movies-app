@@ -1,5 +1,11 @@
 //import components
-import { Header, MovieList, MovieDetails, SearchFeed } from './components';
+import {
+  Header,
+  MovieList,
+  MovieDetails,
+  SearchFeed,
+  Footer
+} from './components';
 //import routiers
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
@@ -26,6 +32,7 @@ function App() {
             element={<SearchFeed />}
           />
         </Routes>
+        <Footer />
       </BrowserRouter>
     </div>
   );
